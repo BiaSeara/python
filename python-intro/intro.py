@@ -1,3 +1,6 @@
+from xmlrpc.client import Boolean
+
+
 print("Hello, World!")
 if 5 >  2:
     print("five is greater than two") #indentation is very important in Python.
@@ -16,6 +19,11 @@ print(y)
 a = str(4)
 b = int(4)
 c = float(4)
+
+"""
+Solo se accepta valores alfanumericos 
+A-Z | a-z | 0-9 | _
+"""
 
 print(a)
 print(b)
@@ -68,4 +76,11 @@ print(x + y + z)
 
 #Output variables
 x = "Justin Bieber"
-print(x)
+print(len(x)) #nos muestra el tamaño del string
+
+#Boolean --> keyword
+verdad = True
+print(verdad)
+
+#Indexación 
+#Rebanada(porción) cadena de caracteres --> <cadena>[inicio:fin]
